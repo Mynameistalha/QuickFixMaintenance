@@ -1,0 +1,162 @@
+.contact-bar {
+    position: relative;
+    background-color: #295dc7;
+    padding: 40px 0;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .contact-bar__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2;
+    z-index: -1;
+  }
+  
+  .contact-bar__inne {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    flex-wrap: wrap;
+  }
+  
+  .contact-bar__left,
+  .contact-bar__right {
+    display: flex;
+    align-items: center;
+    flex: 1 1 50%;
+    padding: 10px;
+  }
+  
+  .contact-bar__left-icon {
+    font-size: 40px;
+    color: #ffffff;
+    margin-right: 20px;
+  }
+  
+  .contact-bar__title {
+    font-size: 50px;
+    font-weight: 650;
+    margin: 0 0 8px;
+    color: #010000;
+  }
+  
+  .contact-bar__text {
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  .contact-bar__call {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-bar__call-icon img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-left: 140px;
+    margin-right: 20px;
+  }
+  
+  .contact-bar__call-number a {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fafcff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-bar__call-number a:hover {
+    color: #000000;
+  }
+  
+  .contact-bar__call-time {
+    font-size: 14px;
+    color: #fdfdfd;
+    margin-top: 5px;
+  }
+  
+  /* Responsive */
+/* Tablets and below */
+@media (max-width: 992px) {
+    .contact-bar__inne {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .contact-bar__left,
+    .contact-bar__right {
+      flex: 1 1 100%;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .contact-bar__call-icon img {
+      margin-left: 0;
+      margin-right: 15px;
+    }
+  
+    .contact-bar__call {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-bar__call-content {
+      text-align: center;
+    }
+  }
+  
+  /* Mobile phones */
+  @media (max-width: 768px) {
+    .contact-bar__title {
+      font-size: 32px;
+    }
+  
+    .contact-bar__text {
+      font-size: 14px;
+    }
+  
+    .contact-bar__call-number a {
+      font-size: 18px;
+    }
+  
+    .contact-bar__call-time {
+      font-size: 13px;
+    }
+  }
+  
+  /* Extra small devices */
+  @media (max-width: 480px) {
+    .contact-bar {
+      padding: 20px 10px;
+    }
+  
+    .contact-bar__title {
+      font-size: 24px;
+    }
+  
+    .contact-bar__left-icon {
+      font-size: 30px;
+      margin-right: 10px;
+    }
+  
+    .contact-bar__call-icon img {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+    }
+  
+    .contact-bar__call-number a {
+      font-size: 16px;
+    }
+  }
+  
+  

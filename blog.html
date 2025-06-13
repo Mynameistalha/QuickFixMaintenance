@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | QuickFix Maintenance</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/bootstrap-styles.css">
+    <link rel="stylesheet" href="css/blog.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <span class="brand-text ms-3">Quick<span class="text-primary">Fix</span> Maintenance</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                                <li><a class="dropdown-item" href="services/air-conditioner-repair.html">
+                                    <i class="fas fa-snowflake me-2"></i>Air Conditioner Repair
+                                </a></li>
+                                <li><a class="dropdown-item" href="services/plumbing-services.html">
+                                    <i class="fas fa-tint me-2"></i>Plumbing Services
+                                </a></li>
+                                <li><a class="dropdown-item" href="services/interior-painting.html">
+                                    <i class="fas fa-paint-roller me-2"></i>Interior Painting
+                                </a></li>
+                                <li><a class="dropdown-item" href="services/exterior-painting.html">
+                                    <i class="fas fa-home me-2"></i>Exterior Painting
+                                </a></li>
+                                <li><a class="dropdown-item" href="services/washing-machine-repair.html">
+                                    <i class="fas fa-washer me-2"></i>Washing Machine Repair
+                                </a></li>
+                                <li><a class="dropdown-item" href="services/general-maintenance.html">
+                                    <i class="fas fa-tools me-2"></i>General Maintenance
+                                </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-us.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Blog Hero Section -->
+    <section class="blog-hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="blog-hero-title">Maintenance Tips & Insights</h1>
+                    <p class="blog-hero-subtitle">Expert advice and latest updates from our maintenance professionals</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Content Section -->
+    <section class="blog-content py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Main Content -->
+                <div class="col-lg-8">
+                    <!-- Featured Article -->
+                    <div class="featured-article mb-5">
+                        <div class="article-card featured">
+                            <div class="article-image">
+                                <img src="images/blog/featured-article.jpg" alt="Featured Article" class="img-fluid">
+                                <div class="article-category">Featured</div>
+                            </div>
+                            <div class="article-content">
+                                <div class="article-meta">
+                                    <span class="article-date"><i class="far fa-calendar-alt"></i> March 15, 2024</span>
+                                    <span class="article-author"><i class="far fa-user"></i> By Admin</span>
+                                </div>
+                                <h2 class="article-title">Essential Home Maintenance Tips for Spring</h2>
+                                <p class="article-excerpt">Discover the key maintenance tasks you should perform this spring to keep your home in top condition...</p>
+                                <a href="blog/essential-home-maintenance-tips.html" class="read-more-btn">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Blog Grid -->
+                    <div class="row g-4">
+                        <!-- Article 1 -->
+                        <div class="col-md-6">
+                            <div class="article-card">
+                                <div class="article-image">
+                                    <img src="images/blog/ac-maintenance.jpg" alt="AC Maintenance" class="img-fluid">
+                                    <div class="article-category">AC Maintenance</div>
+                                </div>
+                                <div class="article-content">
+                                    <div class="article-meta">
+                                        <span class="article-date"><i class="far fa-calendar-alt"></i> March 10, 2024</span>
+                                        <span class="article-author"><i class="far fa-user"></i> By Admin</span>
+                                    </div>
+                                    <h3 class="article-title">How to Maintain Your AC for Optimal Performance</h3>
+                                    <p class="article-excerpt">Learn the essential steps to keep your air conditioning system running efficiently...</p>
+                                    <a href="blog/ac-maintenance-tips.html" class="read-more-btn">Read More <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Article 2 -->
+                        <div class="col-md-6">
+                            <div class="article-card">
+                                <div class="article-image">
+                                    <img src="images/blog/plumbing-tips.jpg" alt="Plumbing Tips" class="img-fluid">
+                                    <div class="article-category">Plumbing</div>
+                                </div>
+                                <div class="article-content">
+                                    <div class="article-meta">
+                                        <span class="article-date"><i class="far fa-calendar-alt"></i> March 5, 2024</span>
+                                        <span class="article-author"><i class="far fa-user"></i> By Admin</span>
+                                    </div>
+                                    <h3 class="article-title">Common Plumbing Issues and How to Prevent Them</h3>
+                                    <p class="article-excerpt">Discover the most common plumbing problems and learn how to prevent them...</p>
+                                    <a href="blog/plumbing-issues-prevention.html" class="read-more-btn">Read More <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Article 3 -->
+                        <div class="col-md-6">
+                            <div class="article-card">
+                                <div class="article-image">
+                                    <img src="images/blog/painting-tips.jpg" alt="Painting Tips" class="img-fluid">
+                                    <div class="article-category">Painting</div>
+                                </div>
+                                <div class="article-content">
+                                    <div class="article-meta">
+                                        <span class="article-date"><i class="far fa-calendar-alt"></i> March 1, 2024</span>
+                                        <span class="article-author"><i class="far fa-user"></i> By Admin</span>
+                                    </div>
+                                    <h3 class="article-title">Professional Painting Tips for Your Home</h3>
+                                    <p class="article-excerpt">Expert advice on choosing the right paint and techniques for your home...</p>
+                                    <a href="blog/professional-painting-tips.html" class="read-more-btn">Read More <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Article 4 -->
+                        <div class="col-md-6">
+                            <div class="article-card">
+                                <div class="article-image">
+                                    <img src="images/blog/appliance-care.jpg" alt="Appliance Care" class="img-fluid">
+                                    <div class="article-category">Appliances</div>
+                                </div>
+                                <div class="article-content">
+                                    <div class="article-meta">
+                                        <span class="article-date"><i class="far fa-calendar-alt"></i> February 25, 2024</span>
+                                        <span class="article-author"><i class="far fa-user"></i> By Admin</span>
+                                    </div>
+                                    <h3 class="article-title">Essential Appliance Maintenance Guide</h3>
+                                    <p class="article-excerpt">Learn how to properly maintain your home appliances for longer lifespan...</p>
+                                    <a href="blog/appliance-maintenance-guide.html" class="read-more-btn">Read More <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pagination -->
+                    <nav class="blog-pagination mt-5">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                            </li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="col-lg-4">
+                    <!-- Search Widget -->
+                    <div class="sidebar-widget search-widget mb-4">
+                        <h3 class="widget-title">Search</h3>
+                        <form class="search-form">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search articles...">
+                                <button class="btn btn-primary" type="submit">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Categories Widget -->
+                    <div class="sidebar-widget categories-widget mb-4">
+                        <h3 class="widget-title">Categories</h3>
+                        <ul class="categories-list">
+                            <li><a href="#">AC Maintenance <span>(5)</span></a></li>
+                            <li><a href="#">Plumbing <span>(8)</span></a></li>
+                            <li><a href="#">Painting <span>(6)</span></a></li>
+                            <li><a href="#">Appliances <span>(4)</span></a></li>
+                            <li><a href="#">General Maintenance <span>(7)</span></a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Recent Posts Widget -->
+                    <div class="sidebar-widget recent-posts-widget mb-4">
+                        <h3 class="widget-title">Recent Posts</h3>
+                        <div class="recent-post">
+                            <div class="recent-post-image">
+                                <img src="images/blog/recent-post-1.jpg" alt="Recent Post">
+                            </div>
+                            <div class="recent-post-content">
+                                <h4><a href="#">How to Choose the Right AC for Your Home</a></h4>
+                                <span class="post-date">March 12, 2024</span>
+                            </div>
+                        </div>
+                        <div class="recent-post">
+                            <div class="recent-post-image">
+                                <img src="images/blog/recent-post-2.jpg" alt="Recent Post">
+                            </div>
+                            <div class="recent-post-content">
+                                <h4><a href="#">Water Heater Maintenance Tips</a></h4>
+                                <span class="post-date">March 8, 2024</span>
+                            </div>
+                        </div>
+                        <div class="recent-post">
+                            <div class="recent-post-image">
+                                <img src="images/blog/recent-post-3.jpg" alt="Recent Post">
+                            </div>
+                            <div class="recent-post-content">
+                                <h4><a href="#">Interior Painting Color Trends 2024</a></h4>
+                                <span class="post-date">March 3, 2024</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tags Widget -->
+                    <div class="sidebar-widget tags-widget">
+                        <h3 class="widget-title">Tags</h3>
+                        <div class="tags">
+                            <a href="#">Maintenance</a>
+                            <a href="#">AC</a>
+                            <a href="#">Plumbing</a>
+                            <a href="#">Painting</a>
+                            <a href="#">Appliances</a>
+                            <a href="#">Tips</a>
+                            <a href="#">Home Care</a>
+                            <a href="#">Repair</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <!-- ... (existing footer content) ... -->
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html> 
